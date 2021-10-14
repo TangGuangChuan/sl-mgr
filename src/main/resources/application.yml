@@ -1,0 +1,37 @@
+server:
+  port: 29010
+  #ssl.key-store: cc.keystore
+  #ssl.key-store-password: 5523300
+  #ssl.keyStoreType: JKS
+  #ssl.keyAlias: cc
+spring:
+  application:
+    name: sl-manager
+  servlet:
+    multipart:
+      max-file-size: 4096MB
+      max-request-size: 4096MB
+  mvc:
+    async:
+      request-timeout: 600000
+  datasource:
+    name: bpmsdb
+    #url: jdbc:mysql://localhost:3306/sl?serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    #username: root
+    #password: bpms!@#$%^
+
+    url: jdbc:mysql://rm-2vc8wz92w6287791g2o.mysql.cn-chengdu.rds.aliyuncs.com/sl?serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: dbuser
+    password: BPms!@#$%^
+
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+ribbon:
+  ConnectTimeout: 30000
+  ReadTimeout: 300000
+logging:
+  level:
+    com.zdxr.cc.mgr.sl.mapper: debug #打印sql
