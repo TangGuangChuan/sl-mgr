@@ -1,0 +1,405 @@
+2021-10-13 22:32:54.981 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 55 ] - Starting SlServerMgrApplication on 惋紅曲 with PID 13164 (F:\项目\sl-mgr\target\classes started by Administrator in F:\项目\sl-mgr)
+2021-10-13 22:32:54.986 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 651 ] - No active profile set, falling back to default profiles: default
+2021-10-13 22:32:56.229 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zdxr.cc.mgr.sl]' package. Please check your configuration.
+2021-10-13 22:32:56.645 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.734 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.844 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.859 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.880 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'getInjector' of type [com.zdxr.cc.mgr.sl.config.mybatisplus.NoahSqlInjector] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.889 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'getGlobalConfig' of type [com.baomidou.mybatisplus.core.config.GlobalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.890 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'myBatisConfig' of type [com.zdxr.cc.mgr.sl.config.MyBatisConfig$$EnhancerBySpringCGLIB$$36ad2ce3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:56.900 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:32:57.873 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 29010 (http)
+2021-10-13 22:32:57.884 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-29010"]
+2021-10-13 22:32:57.885 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-10-13 22:32:57.885 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-10-13 22:32:58.041 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-10-13 22:32:58.042 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 2911 ms
+2021-10-13 22:32:58.638 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1003 ] - {dataSource-1} inited
+2021-10-13 22:32:59.156 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceSendGroupMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:32:59.204 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceProjectRecordMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:32:59.233 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceDocRecordMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:32:59.268 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+2021-10-13 22:32:59.272 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:33:00.007 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0x872034b9] REGISTERED
+2021-10-13 22:33:00.010 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0x872034b9] BIND: 0.0.0.0/0.0.0.0:9093
+2021-10-13 22:33:00.011 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.tcp.NettyServer : 192 ] - 启动 Netty Server
+2021-10-13 22:33:00.012 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0x872034b9, L:/0:0:0:0:0:0:0:0:9093] ACTIVE
+2021-10-13 22:33:00.751 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-13 22:33:00.945 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskScheduler : 181 ] - Initializing ExecutorService 'taskScheduler'
+2021-10-13 22:33:00.979 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2021-10-13 22:33:01.024 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2021-10-13 22:33:01.067 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-10-13 22:33:01.360 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_1
+2021-10-13 22:33:01.367 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: exportExcelUsingGET_1
+2021-10-13 22:33:01.371 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: importExcelUsingPOST_1
+2021-10-13 22:33:01.385 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: saveUsingPOST_1
+2021-10-13 22:33:01.405 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_2
+2021-10-13 22:33:01.411 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: exportExcelUsingGET_2
+2021-10-13 22:33:01.429 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_3
+2021-10-13 22:33:01.435 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: deleteByIdUsingGET_1
+2021-10-13 22:33:01.442 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: insertUsingPOST_1
+2021-10-13 22:33:01.449 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_4
+2021-10-13 22:33:01.457 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: updateUsingPOST_1
+2021-10-13 22:33:01.482 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-29010"]
+2021-10-13 22:33:01.504 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 29010 (http) with context path ''
+2021-10-13 22:33:01.506 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 61 ] - Started SlServerMgrApplication in 7.999 seconds (JVM running for 9.452)
+2021-10-13 22:57:15.149 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 55 ] - Starting SlServerMgrApplication on 惋紅曲 with PID 12024 (F:\项目\sl-mgr\target\classes started by Administrator in F:\项目\sl-mgr)
+2021-10-13 22:57:15.153 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 651 ] - No active profile set, falling back to default profiles: default
+2021-10-13 22:57:15.970 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zdxr.cc.mgr.sl]' package. Please check your configuration.
+2021-10-13 22:57:16.433 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.460 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.512 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.520 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.534 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'getInjector' of type [com.zdxr.cc.mgr.sl.config.mybatisplus.NoahSqlInjector] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.540 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'getGlobalConfig' of type [com.baomidou.mybatisplus.core.config.GlobalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.541 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'myBatisConfig' of type [com.zdxr.cc.mgr.sl.config.MyBatisConfig$$EnhancerBySpringCGLIB$$905843f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:16.548 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'annotationDrivenTransactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 22:57:17.065 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 29010 (http)
+2021-10-13 22:57:17.074 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-29010"]
+2021-10-13 22:57:17.075 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-10-13 22:57:17.075 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-10-13 22:57:17.190 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-10-13 22:57:17.191 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1947 ms
+2021-10-13 22:57:17.456 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1003 ] - {dataSource-1} inited
+2021-10-13 22:57:18.015 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceSendGroupMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:57:18.065 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceProjectRecordMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:57:18.108 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceDocRecordMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:57:18.146 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+2021-10-13 22:57:18.153 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.injector.AbstractMethod : 306 ] - [com.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2021-10-13 22:57:18.581 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0xb6b3be5d] REGISTERED
+2021-10-13 22:57:18.584 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0xb6b3be5d] BIND: 0.0.0.0/0.0.0.0:9093
+2021-10-13 22:57:18.585 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.tcp.NettyServer : 192 ] - 启动 Netty Server
+2021-10-13 22:57:18.586 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [ io.netty.handler.logging.LoggingHandler : 150 ] - [id: 0xb6b3be5d, L:/0:0:0:0:0:0:0:0:9093] ACTIVE
+2021-10-13 22:57:19.040 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-13 22:57:19.180 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskScheduler : 181 ] - Initializing ExecutorService 'taskScheduler'
+2021-10-13 22:57:19.208 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2021-10-13 22:57:19.233 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2021-10-13 22:57:19.273 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-10-13 22:57:19.512 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_1
+2021-10-13 22:57:19.519 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: exportExcelUsingGET_1
+2021-10-13 22:57:19.522 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: importExcelUsingPOST_1
+2021-10-13 22:57:19.534 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: saveUsingPOST_1
+2021-10-13 22:57:19.553 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_2
+2021-10-13 22:57:19.558 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: exportExcelUsingGET_2
+2021-10-13 22:57:19.575 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_3
+2021-10-13 22:57:19.580 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: deleteByIdUsingGET_1
+2021-10-13 22:57:19.589 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: insertUsingPOST_1
+2021-10-13 22:57:19.600 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: selectListUsingGET_4
+2021-10-13 22:57:19.611 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: updateUsingPOST_1
+2021-10-13 22:57:19.647 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-29010"]
+2021-10-13 22:57:19.666 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 29010 (http) with context path ''
+2021-10-13 22:57:19.670 [ main ] - [ INFO  ] [ com.zdxr.cc.mgr.sl.SlServerMgrApplication : 61 ] - Started SlServerMgrApplication in 5.034 seconds (JVM running for 6.056)
+2021-10-13 22:58:02.338 [ http-nio-29010-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-13 22:58:02.338 [ http-nio-29010-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2021-10-13 22:58:02.347 [ http-nio-29010-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 8 ms
+2021-10-13 23:04:23.033 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - ==>  Preparing: select * from sl_user where user_name = ? and password = ? 
+2021-10-13 23:04:23.063 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - ==> Parameters: admin(String), 123456(String)
+2021-10-13 23:04:23.113 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - <==      Total: 0
+2021-10-13 23:04:23.123 [ http-nio-29010-exec-6 ] - [ ERROR ] [ com.zdxr.cc.mgr.sl.controller.UserLoginController : 51 ] - 系统异常
+com.zdxr.cc.mgr.sl.common.BizError: 用户名或密码错误
+	at com.zdxr.cc.mgr.sl.service.impl.SlUserServiceImpl.login(SlUserServiceImpl.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy112.login(Unknown Source)
+	at com.zdxr.cc.mgr.sl.controller.UserLoginController.login(UserLoginController.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-13 23:07:13.418 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - ==>  Preparing: select * from sl_user where user_name = ? and password = ? 
+2021-10-13 23:07:13.419 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - ==> Parameters: admin123(String), 000000(String)
+2021-10-13 23:07:13.434 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ com.zdxr.cc.mgr.sl.mapper.SlUserMapper.login : 143 ] - <==      Total: 1
+2021-10-13 23:07:13.553 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:07:13.553 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:07:13.566 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:07:13.568 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:07:13.568 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:07:13.583 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:07:13.584 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:07:13.585 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:07:13.599 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:07:34.772 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:07:34.773 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:07:34.785 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:07:34.786 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:07:34.786 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:07:34.798 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:07:34.800 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:07:34.800 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:07:34.812 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:07:35.489 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:07:35.490 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:07:35.502 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:07:35.502 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:07:35.503 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:07:35.517 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:07:35.519 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:07:35.519 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:07:35.530 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:07:36.605 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectBydeviceId : 143 ] - ==>  Preparing: select * from sl_device_doc_config where device_id = ? 
+2021-10-13 23:07:36.606 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectBydeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:07:36.619 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectBydeviceId : 143 ] - <==      Total: 1
+2021-10-13 23:07:36.620 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==>  Preparing: SELECT id,model_name,model_desc,classify,device_code,device_name,device_num,sys_name,sys_sub_name,send_status,status,comp_upload FROM sl_device WHERE id=? 
+2021-10-13 23:07:36.621 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:07:36.635 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - <==      Total: 1
+2021-10-13 23:07:36.637 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==>  Preparing: select * from sl_device_project_config where device_id = ? and model_state = ? 
+2021-10-13 23:07:36.638 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==> Parameters: 179(Integer), ZPHJ(String)
+2021-10-13 23:07:36.652 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - <==      Total: 1
+2021-10-13 23:07:36.653 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==>  Preparing: select * from sl_device_project_config where device_id = ? and model_state = ? 
+2021-10-13 23:07:36.654 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==> Parameters: 179(Integer), ZJCS(String)
+2021-10-13 23:07:36.666 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - <==      Total: 0
+2021-10-13 23:07:36.668 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==>  Preparing: select * from sl_device_project_config where device_id = ? and model_state = ? 
+2021-10-13 23:07:36.669 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==> Parameters: 179(Integer), YSSY(String)
+2021-10-13 23:07:36.683 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - <==      Total: 0
+2021-10-13 23:07:36.685 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==>  Preparing: select * from sl_device_project_config where device_id = ? and model_state = ? 
+2021-10-13 23:07:36.685 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - ==> Parameters: 179(Integer), LXSY(String)
+2021-10-13 23:07:36.697 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.s.m.S.selectByDeviceIdAndState : 143 ] - <==      Total: 0
+2021-10-13 23:08:02.964 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:08:02.965 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: COMPLETE(String)
+2021-10-13 23:08:02.977 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:02.978 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:02.978 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:02.990 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:03.714 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:08:03.714 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:08:03.726 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:03.728 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:08:03.728 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:08:03.740 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:03.741 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:03.742 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:03.754 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:05.274 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:08:05.274 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:08:05.286 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:05.287 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:08:05.288 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:08:05.300 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:05.301 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:05.301 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:05.313 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.208 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:08:06.208 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:08:06.220 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.221 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:08:06.222 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:08:06.234 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.235 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:06.235 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:06.247 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.384 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:08:06.384 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:08:06.397 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.397 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:08:06.398 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:08:06.409 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:06.411 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:06.411 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:06.423 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:08.088 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_no where device_id = ? order by id 
+2021-10-13 23:08:08.089 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:08.102 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - <==      Total: 5
+2021-10-13 23:08:31.744 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==>  Preparing: SELECT id,model_name,model_desc,classify,device_code,device_name,device_num,sys_name,sys_sub_name,send_status,status,comp_upload FROM sl_device WHERE id=? 
+2021-10-13 23:08:31.745 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:31.757 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - <==      Total: 1
+2021-10-13 23:08:31.771 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_no where device_id = ? order by id 
+2021-10-13 23:08:31.772 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:31.784 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - <==      Total: 5
+2021-10-13 23:08:31.786 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_data_item_record where device_id = ? 
+2021-10-13 23:08:31.787 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:31.800 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - <==      Total: 0
+2021-10-13 23:08:31.802 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_project_record where device_id = ? 
+2021-10-13 23:08:31.802 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:31.827 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceId : 143 ] - <==      Total: 5
+2021-10-13 23:08:31.829 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceDocRecordMapper.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_doc_record where device_id = ? 
+2021-10-13 23:08:31.829 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceDocRecordMapper.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:31.842 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceDocRecordMapper.findByDeviceId : 143 ] - <==      Total: 1
+2021-10-13 23:08:31.882 [ http-nio-29010-exec-2 ] - [ INFO  ] [ c.zdxr.cc.mgr.sl.service.impl.SlDeviceServiceImpl : 370 ] - F:\项目\sl-mgr\sl\zip\XX\
+2021-10-13 23:08:31.882 [ http-nio-29010-exec-2 ] - [ INFO  ] [ c.zdxr.cc.mgr.sl.service.impl.SlDeviceServiceImpl : 371 ] - F:\项目\sl-mgr\sl\zip\
+2021-10-13 23:08:39.234 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:08:39.235 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:08:39.247 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:39.248 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:08:39.248 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:08:39.262 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:39.263 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:39.264 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:39.276 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:40.120 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:08:40.121 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: COMPLETE(String)
+2021-10-13 23:08:40.133 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:40.133 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:40.134 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:40.145 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:40.920 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:08:40.920 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:08:40.932 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:08:40.933 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:08:40.933 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:08:40.945 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:40.945 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:08:40.946 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:08:40.957 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:08:43.081 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==>  Preparing: SELECT id,model_name,model_desc,classify,device_code,device_name,device_num,sys_name,sys_sub_name,send_status,status,comp_upload FROM sl_device WHERE id=? 
+2021-10-13 23:08:43.082 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:43.094 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectById : 143 ] - <==      Total: 1
+2021-10-13 23:08:43.095 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceSendGroupMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device_send_group where device_id = ? 
+2021-10-13 23:08:43.095 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceSendGroupMapper.selectList : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:43.109 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.SlDeviceSendGroupMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:08:43.142 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceIdAndDeviceNo : 143 ] - ==>  Preparing: select * from sl_device_no where device_id = ? and device_no in ('2号','3号','4号','5号','1号') order by id 
+2021-10-13 23:08:43.143 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceIdAndDeviceNo : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:08:43.155 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.s.m.S.findByDeviceIdAndDeviceNo : 143 ] - <==      Total: 5
+2021-10-13 23:09:08.963 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:09:08.964 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:09:08.976 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:09:08.977 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:09:08.977 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:09:08.989 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:09:08.990 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:09:08.990 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:09:09.002 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:09:09.672 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:09:09.673 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: COMPLETE(String)
+2021-10-13 23:09:09.685 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:09:09.685 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:09:09.686 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:09:09.697 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:09:10.480 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:09:10.481 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:09:10.492 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:09:10.493 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:09:10.494 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:09:10.505 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:09:10.506 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:09:10.507 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:09:10.518 [ http-nio-29010-exec-5 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:04.032 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:18:04.033 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:18:04.046 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:04.047 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:18:04.047 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:18:04.059 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:04.060 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:04.060 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:04.072 [ http-nio-29010-exec-2 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:04.985 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:18:04.986 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:18:04.998 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:04.998 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:18:04.999 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:18:05.010 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:05.013 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:05.013 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:05.025 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:05.743 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:18:05.744 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:18:05.756 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:05.757 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:18:05.757 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:18:05.768 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:05.769 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:05.770 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:05.781 [ http-nio-29010-exec-10 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:06.351 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:18:06.352 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:18:06.364 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:06.364 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:18:06.366 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:18:06.378 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:06.379 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:06.379 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:06.391 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.008 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:18:07.009 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:18:07.021 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.021 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:18:07.022 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:18:07.034 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.035 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:07.035 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:07.047 [ http-nio-29010-exec-6 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.560 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:18:07.560 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:18:07.572 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.573 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:18:07.573 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:18:07.584 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:07.585 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:07.585 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:07.597 [ http-nio-29010-exec-1 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.143 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:18:08.144 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:18:08.156 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.157 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:18:08.157 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:18:08.168 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.169 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:08.169 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:08.181 [ http-nio-29010-exec-7 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.816 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 AND status = ? 
+2021-10-13 23:18:08.816 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: DOING(String)
+2021-10-13 23:18:08.828 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.829 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 and status = ? order by id limit ?,? 
+2021-10-13 23:18:08.829 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: DOING(String), 0(Integer), 5(Integer)
+2021-10-13 23:18:08.841 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:18:08.841 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:18:08.842 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:18:08.853 [ http-nio-29010-exec-8 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:20:18.556 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM sl_device WHERE id > 0 
+2021-10-13 23:20:18.567 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - ==> Parameters: 
+2021-10-13 23:20:18.584 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceMapper.selectList_COUNT : 143 ] - <==      Total: 1
+2021-10-13 23:20:18.587 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==>  Preparing: select * from sl_device where id>0 order by id limit ?,? 
+2021-10-13 23:20:18.588 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - ==> Parameters: 0(Integer), 5(Integer)
+2021-10-13 23:20:18.601 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectList : 143 ] - <==      Total: 1
+2021-10-13 23:20:18.602 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==>  Preparing: select * from sl_device where 1=1 order by id 
+2021-10-13 23:20:18.603 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - ==> Parameters: 
+2021-10-13 23:20:18.615 [ http-nio-29010-exec-9 ] - [ DEBUG ] [ c.zdxr.cc.mgr.sl.mapper.SlDeviceMapper.selectCount : 143 ] - <==      Total: 1
+2021-10-13 23:22:35.140 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_no where device_id = ? order by id 
+2021-10-13 23:22:35.140 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:22:35.156 [ http-nio-29010-exec-4 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - <==      Total: 5
+2021-10-13 23:23:52.512 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==>  Preparing: select * from sl_device_no where device_id = ? order by id 
+2021-10-13 23:23:52.513 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - ==> Parameters: 179(Integer)
+2021-10-13 23:23:52.525 [ http-nio-29010-exec-3 ] - [ DEBUG ] [ c.z.c.m.sl.mapper.SlDeviceNoMapper.findByDeviceId : 143 ] - <==      Total: 5

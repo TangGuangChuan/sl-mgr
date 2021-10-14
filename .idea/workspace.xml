@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e288c99f-e012-4c51-931d-edd68c2a74d4" name="Default Changelist" comment="初始化项">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_67.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andyczy_java_excel_utils_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_swagger_bootstrap_ui_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__e_iceblue_spire_office_free_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpms-mgr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/sl-mgr.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/sl-mgr/sl-mgr-2021-10-13-0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sl-mgr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/FileResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlFileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlSupportMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/FileTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/mapper/SlFileResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/mapper/SlSupportMaterialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlFileResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlSupportMaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlFileResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlSupportMaterialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/SlServerMgrApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/BeanCopyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/BizError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/BpmsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/BpmsHttpResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/SpringContextUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/common/ZipUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/BpmsWebMvcConfigure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/CodeGenerator$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/InsertBatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/NoahSqlInjector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/NoahSqlMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/SlMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/config/mybatisplus/TableInfoUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/AttachController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceClientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceDocConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceDocRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceProjectConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceProjectRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/DeviceSendGroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/controller/UserLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/DeleteDataVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/ModelInvoVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SendGroupDeleteVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlAttachUpLoadVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlAttachVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlClientUploadVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceClientVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDataItemConfigVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDataItemRecordVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDocConfigSaveDetailVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDocConfigSaveVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDocConfigVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceDocRecordVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceInfoVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceNoUpdateVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceNoVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceProjectConfigInfoVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceProjectConfigSaveDetailVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceProjectConfigSaveVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceProjectConfigVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceProjectRecordVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceSendGroupInfoVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceSendGroupInsertVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceSendGroupUpdateVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceSendGroupVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlDeviceVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlSendCallBackVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlSendMsgVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlUserLoginVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlUserModifyVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlUserRegisterVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/data/SlUserVoData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlAttach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceDataItemConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceDataItemRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceDocConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceDocRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceNo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceProjectConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceProjectRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlDeviceSendGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/entity/SlUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/enums/GroupStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/enums/ModelStateEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/enums/YNStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/enums/base/BaseEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/enums/base/ModelStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlAttachMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceClientMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceDataItemConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceDataItemRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceDocConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceDocRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceMapper$SqlProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceNoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceProjectConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceProjectRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlDeviceSendGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/mapper/SlUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlAttachService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceDocConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceDocRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceProjectConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceProjectRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceSendGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlDeviceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/ISlUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlAttachServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceClientServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceDocConfigServiceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceDocRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceProjectConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceProjectRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceSendGroupServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlDeviceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/SlUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/service/impl/TaskSendLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/MessageHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/MessageHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/MsgDecoder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/MsgDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/MsgEncoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer$1$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer$1$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/ServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/ClientInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/HeartbeatMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/RegistMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/RegistResMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/type/MsgLengthEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/type/MsgStateEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/bean/type/MsgType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/GsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/MessageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/MsgBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/NullUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/SeqNoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zdxr/cc/mgr/sl/tcp/util/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/20210309.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.80580e93aa58fa62045ead3fac54617f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.80580e93aa58fa62045ead3fac54617f.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.ac41aa1e5e734c532e6694316a169de2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.ac41aa1e5e734c532e6694316a169de2.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.d42293a38fa9673ac174f767c25e5670.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.d42293a38fa9673ac174f767c25e5670.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.f14b3d0a9c0466c8b92539c6a9325cba.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/css/app.f14b3d0a9c0466c8b92539c6a9325cba.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/file/1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/file/2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/file/文档检查项目配置模板.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/file/试验项目配置模板.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/fonts/element-icons.535877f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/fonts/element-icons.732389d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/img/header-bg.04eb066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/img/login-bg.ba540f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/img/login-bg.f1885c6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/img/login-btn.f3e4def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.1279dc5b522037ed2da4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.1279dc5b522037ed2da4.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.4ed64ed14a0117f43d4f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.4ed64ed14a0117f43d4f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.5dfb39f1dcda5b8294a5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.5dfb39f1dcda5b8294a5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.c59ffcb792e198b82543.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.c59ffcb792e198b82543.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.d97b508af76fe551f653.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/app.d97b508af76fe551f653.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.3ad1d5771e9b13dbdad2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.504b4197ccef75554139.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.504b4197ccef75554139.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.add74657b28fb5fad442.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/static/js/vendor.add74657b28fb5fad442.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/template/template.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zdxr/cc/mgr/sl/BpmsServerMgrApplicationTests.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlFileResourceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlFileResourceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="116" column="33" lean-forward="true" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlSupportMaterialService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlSupportMaterialServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2450">
+              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlSupportMaterial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlFileResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="48" column="28" selection-start-line="19" selection-start-column="4" selection-end-line="48" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/GroupStatusEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/FileTypeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="tangguangchuan &lt;616934150@qq.com&gt;" />
+        <option value="TangGuangChuan" />
+        <option value="tanggaungchuan" />
+        <option value="616934150@qq.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/base/BaseEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/SlServerMgrApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/FileTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/mapper/SlSupportMaterialMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlSupportMaterialService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlSupportMaterialServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlSupportMaterial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlFileResourceServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven" />
+        <option name="mavenHome" value="F:/apache-maven-3.5.0-bin/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="193" />
+    <option name="y" value="75" />
+    <option name="width" value="1481" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sl-mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="out_file" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="out_file" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="测试包" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="out_file" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="测试包" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="三维图" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="enums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="enums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdxr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mgr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sl-mgr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sl-mgr" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zdxr.cc.mgr.sl.service.impl" />
+      <recent name="com.zdxr.cc.mgr.sl.service" />
+      <recent name="com.zdxr.cc.mgr.sl.mapper" />
+      <recent name="com.zdxr.cc.mgr.sl.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\项目\sl-mgr\src\main\java\com\zdxr\cc\mgr\sl\controller" />
+      <recent name="F:\项目\sl-mgr\src\main\java\com\zdxr\cc\mgr\sl\mapper" />
+      <recent name="F:\项目\sl-mgr\src\main\java\com\zdxr\cc\mgr\sl\service\impl" />
+      <recent name="F:\项目\sl-mgr\src\main\java\com\zdxr\cc\mgr\sl\service" />
+      <recent name="F:\项目\sl-mgr\src\main\java\com\zdxr\cc\mgr\sl\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SlServerMgrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zdxr.cc.mgr.sl.SlServerMgrApplication" />
+      <module name="sl-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zdxr.cc.mgr.sl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SlServerMgrApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e288c99f-e012-4c51-931d-edd68c2a74d4" name="Default Changelist" comment="" />
+      <created>1634133495997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634133495997</updated>
+      <workItem from="1634133504723" duration="8200000" />
+      <workItem from="1634214834037" duration="11001000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1634214986377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634214986377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化项目">
+      <created>1634215034955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634215034955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19201000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23766094" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3329609" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" visible="true" weight="0.35642457" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49892703" weight="0.13407822" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.13519552" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.52290505" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.3299356" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlFileResourceServiceImpl.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zdxr/cc/mgr/sl/BpmsServerMgrApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/data/SlAttachUpLoadVoData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceDocConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceDocRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceProjectConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceProjectRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/DeviceSendGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1370">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/common/BpmsHttpResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/AttachController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/img/header-bg.04eb066.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/20210309.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/config/mybatisplus/InsertBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/config/mybatisplus/NoahSqlInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/config/mybatisplus/NoahSqlMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/common/BizError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/common/ZipUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlAttach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/config/mybatisplus/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/tcp/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/SlServerMgrApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/mapper/SlFileResourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/controller/FileResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sl/out_file/测试包/用户手册/杨景尉.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/base/BaseEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/ModelStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar!/org/apache/commons/compress/archivers/zip/ZipFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+          <folding>
+            <element signature="e#6479#6480#0" expanded="true" />
+            <element signature="e#6539#6540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/YNStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/FileTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sl/out_file/测试包/三维图/测试.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlFileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="48" column="28" selection-start-line="19" selection-start-column="4" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/enums/GroupStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlSupportMaterialService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/ISlFileResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlSupportMaterialServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2450">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/mapper/SlSupportMaterialMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/entity/SlSupportMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdxr/cc/mgr/sl/service/impl/SlFileResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="116" column="33" lean-forward="true" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
